@@ -8,5 +8,11 @@ dist/
 build/
 .env
 .DS_Store
-saved/*.json
-saved/*.csv
+
+# Project specific ignores
+.claude/
+quote/
+saved/*
+!saved/.gitkeep
+claude_code_learning.pptx
+EXERCISES.md
